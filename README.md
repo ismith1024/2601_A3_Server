@@ -52,14 +52,14 @@ The GUI provides a spinner with other users and four buttons along the bottom of
 
 The Android client login screen:
 
-![alt text](imagetbd "Login")
+![alt text](https://github.com/ismith1024/Mobile-Apps-Assignment-3-Server/blob/master/20190418213452_Screenshot_2019-04-18-21-28-22.png "Login")
 
 The Android client chat screen:
 
-![alt text](imagetbd "Chat")
+![alt text](https://github.com/ismith1024/Mobile-Apps-Assignment-3-Server/blob/master/20190418213459_Screenshot_2019-04-18-21-28-07.png "Chat")
 
 The java server:
-![alt text](imagetbd "Server")
+![alt text](https://github.com/ismith1024/Mobile-Apps-Assignment-3-Server/blob/master/Screenshot%20from%202019-04-18%2021-29-35.png?raw=trued "Server")
 
 When a client connects to the server the client sends a "login" message to the server identifying the user.  When new users log in a message is sent to all currently connected users informing them of the new member's arrival.  After the server connection is accepted, a LOGIN message type is sent to the server.  The server adds the client name and connection to the hashmap.  Both client and server listen for unsolicited messages.  When a user joins or leaves, the server broadcasts an UPDATE message to all users with this information.  When a client disconnects, a LOGOUT message is sent to the server, which drops their conncection and informs all users.
 
